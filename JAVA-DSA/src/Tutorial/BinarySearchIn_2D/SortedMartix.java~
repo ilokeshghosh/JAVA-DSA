@@ -1,0 +1,17 @@
+package com.lokesh.binary_search_in_2D_Array;
+
+public class SortedMartix {
+    public static void main(String[] args){
+
+    }
+    static int[] SimpleBS(int[] matrix, int row, int cStart, int cEnd, int target){
+        
+    }
+
+    static int[] search(int[][] matrix, int target){
+        int rows=matrix.length;
+        int cols=matrix[0].length;//be cautious, matrix may be empty
+
+        if()
+    }
+}

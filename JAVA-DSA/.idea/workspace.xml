@@ -32,13 +32,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.q1">
-    <configuration name="q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Array.q1" />
+  <component name="RunManager" selected="Application.fruitfun">
+    <configuration name="CreateStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutorial.StringBuilder.CreateStringBuilder" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Array.*" />
+          <option name="PATTERN" value="Tutorial.StringBuilder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -46,12 +46,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.ConditionalLoops.Basics.q7" />
+    <configuration name="StringBuffer_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutorial.StringBuffer.StringBuffer_Methods" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.ConditionalLoops.Basics.*" />
+          <option name="PATTERN" value="Tutorial.StringBuffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="creating_stringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutorial.StringBuffer.creating_stringBuffer" />
+      <module name="JAVA-DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tutorial.StringBuffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fruitfun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutorial.SwitchCase.fruitfun" />
+      <module name="JAVA-DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tutorial.SwitchCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutorial.String.intro" />
+      <module name="JAVA-DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tutorial.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,8 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.q1" />
-        <item itemvalue="Application.q7" />
+        <item itemvalue="Application.fruitfun" />
+        <item itemvalue="Application.CreateStringBuilder" />
+        <item itemvalue="Application.StringBuffer_Methods" />
+        <item itemvalue="Application.creating_stringBuffer" />
+        <item itemvalue="Application.intro" />
       </list>
     </recent_temporary>
   </component>

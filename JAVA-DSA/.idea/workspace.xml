@@ -26,14 +26,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/acer/Desktop/GIT REPO/JAVA-DSA/JAVA-DSA"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/Desktop/GIT REPO/JAVA-DSA/JAVA-DSA&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.fruitfun">
+}</component>
+  <component name="RunManager" selected="Application.Q26">
     <configuration name="CreateStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tutorial.StringBuilder.CreateStringBuilder" />
       <module name="JAVA-DSA" />
@@ -47,12 +47,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuffer_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tutorial.StringBuffer.StringBuffer_Methods" />
+    <configuration name="Q25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.ConditionalLoops.Test.Q25" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tutorial.StringBuffer.*" />
+          <option name="PATTERN" value="Practice.ConditionalLoops.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,8 +60,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creating_stringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tutorial.StringBuffer.creating_stringBuffer" />
+    <configuration name="Q26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.ConditionalLoops.Test.Q26" />
+      <module name="JAVA-DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.ConditionalLoops.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBuffer_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutorial.StringBuffer.StringBuffer_Methods" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
@@ -86,26 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tutorial.String.intro" />
-      <module name="JAVA-DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tutorial.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q26" />
+        <item itemvalue="Application.Q25" />
         <item itemvalue="Application.fruitfun" />
         <item itemvalue="Application.CreateStringBuilder" />
         <item itemvalue="Application.StringBuffer_Methods" />
-        <item itemvalue="Application.creating_stringBuffer" />
-        <item itemvalue="Application.intro" />
       </list>
     </recent_temporary>
   </component>

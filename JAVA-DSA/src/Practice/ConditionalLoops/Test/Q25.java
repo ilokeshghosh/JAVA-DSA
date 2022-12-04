@@ -1,30 +1,14 @@
 package Practice.ConditionalLoops.Test;
-
-import java.util.Scanner;
-
-//Take integer inputs till the user enters 0 and print the largest number from all.
+//Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August.
 public class Q25 {
+
     public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
-        int i=0;
-        int max=0;
-        int n1,n2=1;
-        while(i==0){
-            System.out.println("Enter the number ");
-            int num= input.nextInt();
-            n1=num;
-            if(num==0){
-                break;
-            }
-            if(n1>n2){
-                max=n1;
-            } else if(n2>n1){
-                max=n2;
-            }
-
-
-        }
-        System.out.println(max);
+        int count=0;
+         for(int i=1;i<=30;i++){
+             if(i%2==0){
+                 count++;
+             }
+         }
+         System.out.println(count);
     }
-
 }

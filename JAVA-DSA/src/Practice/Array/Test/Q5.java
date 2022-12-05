@@ -16,14 +16,16 @@ public class Q5 {
         int[] nums= {2,5,1,3,4,7};
         int n=3;
         int j=1;
+        int k=0;
        int[] ans= new int[nums.length];
 
-       for (int i=0;i<nums.length;i++){
-           if(i%2==0){
-               ans[i]=nums[i];
-           } else if (i % 2 != 0) {
-               ans[i]=nums[n];
-           }
+       for (int i=n;i<nums.length;i++){
+           ans[j]=nums[i];
+           j+=2;
+       }
+       for (int i=0;i<nums.length;i+=2){
+          ans[i]=nums[k];
+          k++;
        }
 
 

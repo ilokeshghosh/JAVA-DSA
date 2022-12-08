@@ -33,20 +33,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/Desktop/GIT REPO/JAVA-DSA/JAVA-DSA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Q7">
-    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Array.Test.Q5" />
-      <module name="JAVA-DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice.Array.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q9">
     <configuration name="Q6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.Array.Test.Q6" />
       <module name="JAVA-DSA" />
@@ -73,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Array.q5" />
+    <configuration name="Q9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Array.Test.Q9" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Array.*" />
+          <option name="PATTERN" value="Practice.Array.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,13 +86,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="q8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Array.q8" />
+      <module name="JAVA-DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q9" />
+        <item itemvalue="Application.q8" />
         <item itemvalue="Application.Q7" />
         <item itemvalue="Application.q7" />
         <item itemvalue="Application.Q6" />
-        <item itemvalue="Application.Q5" />
-        <item itemvalue="Application.q5" />
       </list>
     </recent_temporary>
   </component>

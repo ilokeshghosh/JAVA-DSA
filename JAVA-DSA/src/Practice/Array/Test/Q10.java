@@ -1,4 +1,8 @@
 package Practice.Array.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /*
 
 Check if the Sentence Is Pangram
@@ -23,10 +27,28 @@ public class Q10 {
     }
 
     static boolean checkIfPangram(String sentence) {
-        int count=0;
+//        int count=0;
+       StringBuilder al = new StringBuilder(sentence.length()+1);
+        for (int i=0;i<sentence.length();i++){
+            if(unik(al,sentence.charAt(i))){
+                al.insert(i,sentence.charAt(i));
+            }
+        }
+        if(al.length()==25){
+            return true;
+        }
         return false;
 
 
+    }
+    static boolean unik(StringBuilder sentence,char ch){
+
+        for (int i=0;i<sentence.length();i++){
+            if(ch==sentence.charAt(i)){
+                return false;
+            }
+        }
+        return true;
     }
 
 

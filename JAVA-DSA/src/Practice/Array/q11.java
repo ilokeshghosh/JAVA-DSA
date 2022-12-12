@@ -53,8 +53,6 @@ public class q11 {
             if(ruleValue.equals(arr[val-1])){
                 count++;
             }
-
-
         }
     return count;
     }

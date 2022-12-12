@@ -36,7 +36,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/Desktop/GIT REPO/JAVA-DSA/JAVA-DSA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.q11">
+  <component name="RunManager" selected="Application.q12">
     <configuration name="Q10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.Array.Test.Q10" />
       <module name="JAVA-DSA" />
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Array.Test.test" />
+    <configuration name="q12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Array.q12" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Array.Test.*" />
+          <option name="PATTERN" value="Practice.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.q12" />
         <item itemvalue="Application.q11" />
         <item itemvalue="Application.Q10_optimized" />
         <item itemvalue="Application.Q10" />
         <item itemvalue="Application.Q10_Optimized" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +122,21 @@
       <updated>1670087035645</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Practice/Array/q12.java</url>
+          <line>14</line>
+          <properties class="Practice.Array.q12" method="largestAltitude">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JAVA_DSA$Q8.ic" NAME="Q8 Coverage Results" MODIFIED="1670509031698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

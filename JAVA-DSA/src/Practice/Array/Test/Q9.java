@@ -19,7 +19,7 @@ nums       index     target
 public class Q9 {
     public static void main(String[] args){
         int[] nums ={0,1,2,3,4};
-        int[] index={0,1,2,2,0};
+        int[] index={0,1,2,2,1};
 //        int[] target= new int[nums.length];
 
         List<Integer> tmp = new ArrayList<>(nums.length);

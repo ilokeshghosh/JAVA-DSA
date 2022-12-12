@@ -27,29 +27,34 @@ public class Q10 {
     }
 
     static boolean checkIfPangram(String sentence) {
-//        int count=0;
-       StringBuilder al = new StringBuilder(sentence.length()+1);
-        for (int i=0;i<sentence.length();i++){
-            if(unik(al,sentence.charAt(i))){
-                al.insert(i,sentence.charAt(i));
+
+        String alpha = "abcdefghijklmnopqrstuvwxyz";
+        StringBuilder ans = new StringBuilder(sentence.length());
+        for(int i=0;i<sentence.length();i++){
+            for(int j=0;j<alpha.length();j++){
+                if(sentence.charAt(i)==alpha.charAt(j)){
+                    if(unik(sentence.charAt(i),ans)){
+                        ans.append(sentence.charAt(i));
+                    }
+                }
+
             }
         }
-        if(al.length()==25){
+        System.out.println(ans.length());
+        if(ans.length()==26){
             return true;
         }
         return false;
-
-
     }
-    static boolean unik(StringBuilder sentence,char ch){
-
-        for (int i=0;i<sentence.length();i++){
-            if(ch==sentence.charAt(i)){
-                return false;
+    static boolean unik(char c, StringBuilder ans){
+            for(int i=0;i<ans.length();i++){
+             if(ans.charAt(i)==c){
+                 return false;
+             }
             }
-        }
-        return true;
+            return true;
     }
+
 
 
 }

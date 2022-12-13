@@ -1,4 +1,7 @@
 package Practice.Array;
+
+import java.util.Arrays;
+
 /*
 
 Find the Highest Altitude
@@ -13,11 +16,26 @@ public class q12 {
         System.out.println(largestAltitude(gain));
     }
     static int largestAltitude(int[] gain) {
-        int max=gain[0];
+        int point=0;
+        int[] ans = new int[gain.length+1];
+        ans[0]=0;
+        int altitude=0;
+        int max=0;
+        for(int i=0;i<gain.length;i++){
+            point+=gain[i];
+            ans[i+1]=point;
+        }
 
-        for (int i=1;i<gain.length;i++){
-            if(gain[i]>max){
-                gain[i]=max;
+
+        return check(ans);
+    }
+    static int check(int[] ans){
+        int max=ans[0];
+
+        for(int i=1;i<ans.length;i++){
+            if(ans[i]>max){
+                max=ans[i];
+
             }
         }
         return max;

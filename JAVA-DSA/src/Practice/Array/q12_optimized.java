@@ -10,7 +10,7 @@ Explanation: The altitudes are [0,-5,-4,1,1,-6]. The highest is 1.
  */
 public class q12_optimized {
     public static void main(String[] args){
-        int[] gain = {-5,1,5,0,-7};
+        int[] gain = {-5,1,5,0,-5};
         System.out.println(largestAltitude(gain));
     }
     static int largestAltitude(int[] gain) {

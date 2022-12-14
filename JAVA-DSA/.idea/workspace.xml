@@ -36,7 +36,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/Desktop/GIT REPO/JAVA-DSA/JAVA-DSA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.q12_optimized">
+  <component name="RunManager" selected="Application.q13">
     <configuration name="q12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.Array.q12" />
       <module name="JAVA-DSA" />
@@ -104,8 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.q12_optimized" />
         <item itemvalue="Application.q13" />
+        <item itemvalue="Application.q12_optimized" />
         <item itemvalue="Application.q5" />
         <item itemvalue="Application.q12" />
         <item itemvalue="Application.test" />

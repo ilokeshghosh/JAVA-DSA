@@ -22,11 +22,11 @@ public class q14 {
         };
         int m=2;
         int n=3;
-        oddCells(m,n,indices);
+        System.out.println(oddCells(m,n,indices));
     }
 
 
-    static void oddCells(int m, int n, int[][] indices) {
+    static int oddCells(int m, int n, int[][] indices) {
         int[][] ans = new int[m][n];
         /*
 
@@ -36,44 +36,37 @@ public class q14 {
          */
 
 
-
-        for (int i = 0; i < indices.length; i++) {
-            for (int j = 0; j < m; j++) {
-                ans[indices[i][j]][j]++;
-            }
-
-//       for(int i=0;i<indices.length;i++){
-//           for (int j=0;j<n;j++){
-//               ans[indices[i][j]][j]++;
-//           }
-//           for (int j=0;j<m;j++){
-//               ans[i][indices[i][j]]++;
-//           }
-//
-//       }
-
-        }
+        int count=0;
 
 
+       for(int i=0;i<indices.length;i++){
+           for (int j=0;j<n;j++){
+               ans[indices[i][0]][j]++;
+           }
+           for (int j=0;j<m;j++){
+               ans[j][indices[i][1]]++;
+           }
 
-        for (int i = 0; i < m; i++) {
+       }
 
-
+        for(int i=0;i<m;i++) {
             for (int j = 0; j < n; j++) {
-                System.out.println(ans[m][n]);
+                if (ans[i][j] % 2 != 0) {
+                    count++;
+                }
             }
 
-
         }
-
-
-
-
-
-
-
+        return count;
 
     }
+
+
+
+
+
+
+
 
 
 

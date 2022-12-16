@@ -36,20 +36,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/Desktop/GIT REPO/JAVA-DSA/JAVA-DSA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.q14">
-    <configuration name="q12_optimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Array.q12_optimized" />
-      <module name="JAVA-DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.q15">
     <configuration name="q13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.Array.q13" />
       <module name="JAVA-DSA" />
@@ -65,6 +52,19 @@
     </configuration>
     <configuration name="q14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.Array.q14" />
+      <module name="JAVA-DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="q15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Array.q15" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.q15" />
         <item itemvalue="Application.q14" />
         <item itemvalue="Application.q13" />
         <item itemvalue="Application.t3" />
         <item itemvalue="Application.t2" />
-        <item itemvalue="Application.q12_optimized" />
       </list>
     </recent_temporary>
   </component>

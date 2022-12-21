@@ -31,8 +31,8 @@ public class q19_optimized {
 
         for(int i=0;i<logs.length;i++){
 
-                ans[logs[i][0]-1950]++;
-                ans[logs[i][1]-1950]--;
+            ans[logs[i][0]-1950]++;
+            ans[logs[i][1]-1950]--;
 
 
         }

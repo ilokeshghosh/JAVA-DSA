@@ -37,8 +37,8 @@
   }
 }</component>
   <component name="RunManager" selected="Application.q20">
-    <configuration name="q18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Array.q18" />
+    <configuration name="q17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Array.q17" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
@@ -105,10 +105,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.q20" />
+        <item itemvalue="Application.q17" />
         <item itemvalue="Application.q5" />
         <item itemvalue="Application.q19_optimized" />
         <item itemvalue="Application.q19" />
-        <item itemvalue="Application.q18" />
       </list>
     </recent_temporary>
   </component>

@@ -20,7 +20,7 @@ public class q24 {
     static int maxSubArray(int[] nums) {
         int x=0;
         int max =nums[0];
-        int[] ans = new int[nums.length];
+        int[] ans = new int[nums.length];jk
         for(int i=1;i<nums.length;i++){
             for(int j=0;j<nums.length;j++){
                 if(nums[i]>nums[j]){

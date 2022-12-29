@@ -2,6 +2,8 @@ package Practice.Array;
 
 import java.util.Arrays;
 
+//import static jdk.vm.ci.code.CodeUtil.K;
+
 /*
 
 Maximum Subarray
@@ -13,34 +15,33 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 public class q24 {
     public static void main(String[] args) {
     int[] nums={-2,1,-3,4,-1,2,1,-5,4};
+//    int[] nums={-2,-1};
+//    int[] nums={-3,-2,-2,-3};
+
+
+
+
+
+
     System.out.println(maxSubArray(nums));
 
     }
 
     static int maxSubArray(int[] nums) {
-        int x=0;
-        int max =nums[0];
-        int[] ans = new int[nums.length];jk
-        for(int i=1;i<nums.length;i++){
-            for(int j=0;j<nums.length;j++){
-                if(nums[i]>nums[j]){
-                    max=nums[i];
-                    x=i;
-                }
-                else {
-                    max=nums[j];
-                    x=j;
-                }
+        int max =Integer.MIN_VALUE;
+        int sum=0;
+        int[] ans = new int[nums.length];
+        for(int i=0;i<nums.length;i++){
+            sum+=nums[i];
+            if(sum>max){
+                max=sum;
             }
-            System.out.println(max);
-            nums[x]=0;
+            if(sum<0) {
+                sum=0;
+            }
         }
-        System.out.println(Arrays.toString(ans));
-        return 0;
+        System.out.println(Integer.MIN_VALUE);
+        return max;
+
     }
-
-
-
-
-
 }

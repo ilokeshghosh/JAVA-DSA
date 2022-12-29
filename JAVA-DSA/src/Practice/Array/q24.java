@@ -40,7 +40,7 @@ public class q24 {
                 sum=0;
             }
         }
-        System.out.println(Integer.MIN_VALUE);
+
         return max;
 
     }

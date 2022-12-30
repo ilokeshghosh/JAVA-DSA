@@ -36,22 +36,9 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/Desktop/GIT REPO/JAVA-DSA/JAVA-DSA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.q24">
+  <component name="RunManager" selected="Application.q25">
     <configuration name="Hash_table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tutorial.DataStructure.Hash_table" />
-      <module name="JAVA-DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tutorial.DataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stack_demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tutorial.DataStructure.Stack_demo" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
@@ -102,13 +89,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="q25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Array.q25" />
+      <module name="JAVA-DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.q25" />
         <item itemvalue="Application.q24" />
         <item itemvalue="Application.q23" />
         <item itemvalue="Application.q22" />
         <item itemvalue="Application.Hash_table" />
-        <item itemvalue="Application.Stack_demo" />
       </list>
     </recent_temporary>
   </component>

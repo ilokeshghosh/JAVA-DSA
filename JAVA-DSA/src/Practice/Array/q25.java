@@ -26,13 +26,47 @@ public class q25 {
 
 
         //Test case-2
+//        int[][] mat={
+//                {1,2},
+//                {3,4}
+//        };
+//
+//        int  r = 2;
+//        int c = 4;
+
+
+        //Test case-3
+//        int[][] mat={
+//
+//
+//                {1,2},
+//                {3,4}
+//        };
+//
+//        int  r = 4;
+//        int c = 1;
+
+        //test case-4
+//        int[][] mat={
+//
+//
+//                {1,2,3,4}
+//
+//        };
+//
+//        int  r = 1;
+//        int c = 4;
+
+        //test case-5
         int[][] mat={
-                {1,2},
-                {3,4}
+
+
+                {1,2}
+
         };
 
-        int  r = 2;
-        int c = 4;
+        int  r = 1;
+        int c = 1;
 
 //        System.out.println(Arrays.toString(matrixReshape(mat,r,c)));
         matrixReshape(mat,r,c);
@@ -43,35 +77,28 @@ public class q25 {
        int currentR=0;
        int currentC=0;
 
-       if(r>1){
-           c/=2;
+       if((mat.length*mat[0].length)!=(r*c) || (mat.length*mat[0].length)%r!=0){
+           return mat;
        }
         int[][] ans = new int[r][c];
-        for(int i=0;i<r;i++){
-            for(int j=0;j<c;j++){
-                if(currentR<mat.length && currentC<mat[0].length){
-                    int sum = setValue(mat,currentR,currentC);
-                    ans[i][j] = sum;
+        for(int i=0;i<mat.length;i++){
+            for(int j=0;j<mat[i].length;j++){
+
+
+                    ans[currentR][currentC] = mat[i][j];
                     currentC++;
 //                    System.out.print(ans[i][j]);
-                }
-                if(currentC== mat[0].length){
+
+                if(currentC== c){
                     currentR++;
                     currentC=0;
                 }
             }
         }
-        for (int i=0;i<r;i++){
-            for (int j=0;j<c;j++){
-                System.out.print(ans[i][j]);
-            }
-            System.out.println();
-        }
+
     return ans;
     }
-    static  int setValue(int[][] mat, int currentR, int currentC){
-       return mat[currentR][currentC];
-    }
+
 
 
 

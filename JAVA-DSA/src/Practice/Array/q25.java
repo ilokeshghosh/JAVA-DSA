@@ -38,29 +38,41 @@ public class q25 {
         matrixReshape(mat,r,c);
     }
 
-    static void matrixReshape(int[][] mat, int r, int c) {
+    static int[][] matrixReshape(int[][] mat, int r, int c) {
+
+       int currentR=0;
+       int currentC=0;
+
+       if(r>1){
+           c/=2;
+       }
         int[][] ans = new int[r][c];
-        int mrow=0;
-
-       int tcol=0;
-
-        for(int row=0;row<r;row++){
-            for(int col=tcol;col<c;col++){
-                ans[row][col]=getValue(mat,row,col);
-                System.out.println(ans[row][col]);
-                tcol++;
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                if(currentR<mat.length && currentC<mat[0].length){
+                    int sum = setValue(mat,currentR,currentC);
+                    ans[i][j] = sum;
+                    currentC++;
+//                    System.out.print(ans[i][j]);
+                }
+                if(currentC== mat[0].length){
+                    currentR++;
+                    currentC=0;
+                }
             }
         }
-
-
-
-//    return ans;
+        for (int i=0;i<r;i++){
+            for (int j=0;j<c;j++){
+                System.out.print(ans[i][j]);
+            }
+            System.out.println();
+        }
+    return ans;
     }
-    static  int getValue(int[][] mat,int mrow,int mcol){
-
-       return mat[mrow][mcol];
-
+    static  int setValue(int[][] mat, int currentR, int currentC){
+       return mat[currentR][currentC];
     }
+
 
 
 

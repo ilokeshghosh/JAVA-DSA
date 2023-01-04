@@ -36,7 +36,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/Desktop/GIT REPO/JAVA-DSA/JAVA-DSA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringBuffer_Methods">
+  <component name="RunManager" selected="Application.q26">
     <configuration name="CreateStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tutorial.StringBuilder.CreateStringBuilder" />
       <module name="JAVA-DSA" />
@@ -104,9 +104,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.q26" />
         <item itemvalue="Application.StringBuffer_Methods" />
         <item itemvalue="Application.CreateStringBuilder" />
-        <item itemvalue="Application.q26" />
         <item itemvalue="Application.q25" />
         <item itemvalue="Application.q24" />
       </list>

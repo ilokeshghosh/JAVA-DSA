@@ -2,6 +2,8 @@ package Practice.Array;
 
 import java.util.Arrays;
 
+
+
 /*
 Plus One
 
@@ -21,34 +23,37 @@ public class q26 {
 //        int[] digit = {9};
 
         //test case-3
-        int[] digit = {9,8,7,6,5,4,3,2,1,0};
+//        int[] digit = {9,8,7,6,5,4,3,2,1,0};
 //        expected output: [9,8,7,6,5,4,3,2,1,1]
 
+        //test case-4
+//        int[] digit ={9,9};
+//        expected output :[1,0,0];
+
+        //test case-4
+        int[] digit ={8,9,9,9};
 
         plusOne(digit);
     }
 
-    static void plusOne(int[] digits) {
-//        int carry =0;
+    static int[] plusOne(int[] digits) {
+        int n =digits.length;
+     for(int i=n-1;i>=0;i--){
+         if(digits[i]<9){
+             digits[i]++;
+             break;
+         }
 
-        digits[digits.length-1]++;
-//        int num= digits[digits.length-1];
+             digits[i]=0;
 
-        for (int i=0;i<digits.length;i++){
-            int carry =digits[i]/10;
-            if(carry>0){
-                i--;
-                digits[i]+=carry;
+     }
 
-            }
-//            System.out.println(carry);
-            System.out.println(digits[i]);
-        }
+     if(digits[0]==0){
+         int[] ans = new int[n+1];
+         ans[0]=1;
+         return ans;
 
-
-
-
-//
-
+     }
+     return digits;
     }
 }

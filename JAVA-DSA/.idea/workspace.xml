@@ -36,13 +36,13 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/Desktop/GIT REPO/JAVA-DSA/JAVA-DSA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.q26">
-    <configuration name="q22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Array.q22" />
+  <component name="RunManager" selected="Application.StringBuffer_Methods">
+    <configuration name="CreateStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutorial.StringBuilder.CreateStringBuilder" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Array.*" />
+          <option name="PATTERN" value="Tutorial.StringBuilder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,12 +50,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Array.q23" />
+    <configuration name="StringBuffer_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutorial.StringBuffer.StringBuffer_Methods" />
       <module name="JAVA-DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.Array.*" />
+          <option name="PATTERN" value="Tutorial.StringBuffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBuffer_Methods" />
+        <item itemvalue="Application.CreateStringBuilder" />
         <item itemvalue="Application.q26" />
         <item itemvalue="Application.q25" />
         <item itemvalue="Application.q24" />
-        <item itemvalue="Application.q23" />
-        <item itemvalue="Application.q22" />
       </list>
     </recent_temporary>
   </component>

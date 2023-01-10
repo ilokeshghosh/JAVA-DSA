@@ -1,4 +1,7 @@
 package Practice.Array;
+
+import java.util.Arrays;
+
 /*
 
 
@@ -22,18 +25,34 @@ public class q27 {
 
 
 //        test case-1
-//        int[] nums ={1, 1, 2};
+        int[] nums ={1, 1, 2};
 //        output : 2
 
 
         //test case-2
-        int[] nums= {0,0,1,1,1,2,2,3,3,4};
+//        int[] nums= {0,0,1,1,1,2,2,3,3,4};
 //        output : 5
+        System.out.println(removeDuplicates(nums));
+
 
     }
 
     static int removeDuplicates(int[] nums) {
+        int count=1;
+        
+        int n=nums.length;
+        int[] ans = new int[n];
 
-        return -1;
+
+        for(int i=1;i<n;i++){
+            if(nums[i-1]!=nums[i]){
+
+                count++;
+            }
+
+        }
+        System.out.println(Arrays.toString(ans));
+        return count;
     }
+
 }

@@ -39,7 +39,7 @@ public class q27 {
 
     static int removeDuplicates(int[] nums) {
         int count=1;
-        
+
         int n=nums.length;
         int[] ans = new int[n];
 

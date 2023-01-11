@@ -1,6 +1,9 @@
 package Practice.Array;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 
 /*
 
@@ -25,12 +28,12 @@ public class q27 {
 
 
 //        test case-1
-        int[] nums ={1, 1, 2};
+//        int[] nums ={1, 1, 2};
 //        output : 2
 
 
         //test case-2
-//        int[] nums= {0,0,1,1,1,2,2,3,3,4};
+        int[] nums= {0,0,1,1,1,2,2,3,3,4};
 //        output : 5
         System.out.println(removeDuplicates(nums));
 
@@ -38,21 +41,20 @@ public class q27 {
     }
 
     static int removeDuplicates(int[] nums) {
-        int count=1;
 
-        int n=nums.length;
-        int[] ans = new int[n];
+        int i=0;
+
+           for(int j=i+1;j<nums.length;j++){
+               if(nums[i]!=nums[j]){
+                   i++;
+                   nums[i]=nums[j];
 
 
-        for(int i=1;i<n;i++){
-            if(nums[i-1]!=nums[i]){
+               }
+           }
 
-                count++;
-            }
-
-        }
-        System.out.println(Arrays.toString(ans));
-        return count;
+//        System.out.println(Arrays.toString(nums));
+       return i+1;
     }
 
 }
